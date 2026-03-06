@@ -322,7 +322,7 @@ const filteredCourses = courses.filter(course =>
 );
 
   return (
-    <div className='bg-[#101022] w-full h-auto text-white p-6'>
+    <div className='bg-[#101022] w-full h-auto min-h-screen text-white p-6'>
 
 <CourseNav Topic={Topic} setTopic={setTopic} search={search} setSearch={setSearch}/>
 <div className="grid grid-cols-3 gap-4 z-0 mt-40 py-5">

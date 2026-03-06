@@ -617,7 +617,7 @@ const hardProjects = skillFilteredProjects.filter(p => p.tag === "hard")
 
 
   return (
-    <div className='bg-[#101022] w-full h-auto text-white p-6'>
+    <div className='bg-[#101022] w-full h-auto min-h-screen text-white p-6'>
       <ProjectNav skills={skills} setSkills={setSkills} />
       <div className="pro flex justify-between items-start gap-3 mt-60">
 
