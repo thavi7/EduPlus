@@ -145,7 +145,7 @@ const Course = () => {
     channel: "Engineering Digest",
     duration: "30:00:00", 
     category: "Java",
-    thumbnail: "https://i.ytimg.com/pl_c/PLA3GkZPtsafY62QhQ030p85HAer0pFDdr/studio_square_thumbnail.jpg?sqp=CIzZrM0G-oaymwEICKoDEPABSFqi85f_AwYIoN_wuQY=&rs=AOn4CLCn6MEwK9jynPdq7wK2_IxQkIakgQ",
+    thumbnail: "https://i.ytimg.com/pl_c/PLA3GkZPtsafY62QhQ030p85HAer0pFDdr/studio_square_thumbnail.jpg?sqp=CJznr80G-oaymwEICKoDEPABSFqi85f_AwYIoN_wuQY=&rs=AOn4CLDczOe0LPgDA2U03iuzMe8BtDvyZQ",
     link: "https://youtube.com/playlist?list=PLA3GkZPtsafY62QhQ030p85HAer0pFDdr&si=DM4vPvrfkmJKtR0V"
   },
     {
@@ -161,7 +161,7 @@ const Course = () => {
     channel: "Coder Army",
     duration: "ongoing", 
     category: "Java",
-    thumbnail: "https://i.ytimg.com/pl_c/PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p/studio_square_thumbnail.jpg?sqp=CJr-rM0G-oaymwEICKoDEPABSFqi85f_AwYIgZrMzAY=&rs=AOn4CLDFk9_Ta2HMDACix65tfCLuUmx9Nw",
+    thumbnail: "https://i.ytimg.com/pl_c/PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p/studio_square_thumbnail.jpg?sqp=CMTlr80G-oaymwEICKoDEPABSFqi85f_AwYIgZrMzAY=&rs=AOn4CLDxV5DvT5Z8z3qTSAxkZ4ZyXPKaOg",
     link: "https://youtube.com/playlist?list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p&si=R_NlMrT-LGcT4mLq"
   },
   //spring
@@ -186,7 +186,7 @@ const Course = () => {
     channel: "Anuj Kumar Sharma",
     duration: "18:42:34", 
     category: "Spring",
-    thumbnail: "https://i.ytimg.com/pl_c/PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt/studio_square_thumbnail.jpg?sqp=CPzlrM0G-oaymwEICIAKENAFSFqi85f_AwYI3tvCwwY=&rs=AOn4CLBKhkY7gQXCR9lkc-ad7hHg4qG8Mg",
+    thumbnail: "https://i.ytimg.com/pl_c/PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt/studio_square_thumbnail.jpg?sqp=CI69r80G-oaymwEICIAKENAFSFqi85f_AwYI3tvCwwY=&rs=AOn4CLBWYuzs_W0r3h1exFyaVLFtZbqk6A",
     link: "https://youtube.com/playlist?list=PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt&si=JK9i07tHInsrFwCT"
   },
 

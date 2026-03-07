@@ -2,10 +2,25 @@
 *{
  
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+   font-family: "NeueMachina", sans-serif;
+}
+@font-face {
+  font-family: "NeueMachina";
+  src: url("./assets/Fonts/PPNeueMachina-PlainRegular.otf") format("opentype");
+  font-weight: 400;
 }
 
+@font-face {
+  font-family: "NeueMachina";
+  src: url("./assets/Fonts/PPNeueMachina-PlainLight.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NeueMachina";
+  src: url("./assets/Fonts/PPNeueMachina-PlainUltrabold.otf") format("opentype");
+  font-weight: 800;
+}
 ::-webkit-scrollbar {
   display: none;
 }
