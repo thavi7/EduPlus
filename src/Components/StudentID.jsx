@@ -13,12 +13,12 @@ const projectCount = bookmarks.filter(b => b.type === "project").length
           </div>
         </div>
         <div className="info flex flex-col justify-between items-start w-[40%] h-full ">
-          <div className=" w-[50%] flex flex-col justify-between py-2 h-[60%]">
+          <div className=" w-[50%] gap-1 flex flex-col justify-between py-2 h-[60%]">
           <div className="text-xl font-bold">Alex Johnson</div>
           <div className="text-[#94A398]">alex.jhonson@nsec.in</div>
-          <div className="flex justify-between items-center px-2">
-            <div className='bg-[#0F173E] px-2 py-1 rounded-2xl text-[#1214E7] '>Premium Student</div>
-            <div className='bg-[#102930] px-2 py-1 rounded-2xl text-[#22C55E] '>Active</div>
+          <div className="flex justify-between items-center gap-2 px-2">
+            <div className='bg-[#0F173E] px-1 py-1 rounded-2xl  text-[12px] text-[#1214E7] '>Premium Student</div>
+            <div className='bg-[#102930] px-2 py-1  text-[13px] rounded-2xl text-[#22C55E] '>Active</div>
           </div>
 
           </div>
