@@ -10,7 +10,7 @@ const Course = () => {
   const courses = [
     //web dev
   {
-    title: "Sigma Web Development Course - Web Development Tutorials in Hindi 🗿",
+    title: "Sigma Web Development Course",
     channel: "CodeWithHarry",
     duration: "56:31:24 ",
     category: "Web Dev",
@@ -325,7 +325,7 @@ const filteredCourses = courses.filter(course =>
     <div className='bg-[#101022] w-full h-auto min-h-screen text-white p-6'>
 
 <CourseNav Topic={Topic} setTopic={setTopic} search={search} setSearch={setSearch}/>
-<div className="grid grid-cols-3 gap-4 z-0 mt-40 py-5">
+<div className="grid grid-cols-3 gap-4 z-0 mt-40 py-5 ">
  {filteredCourses.map((course, index) => (
     <CourseList
       key={index}

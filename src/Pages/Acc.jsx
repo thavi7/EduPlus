@@ -7,9 +7,11 @@ import CourseBox from '../Components/CourseBox';
 import ProjectAcc from '../Components/ProjectAcc';
 import  { useContext } from 'react'
 import { Bookmark } from '../Components/Bookmark';
+import { useNavigate } from 'react-router-dom';
 
 
 const Acc = () => {
+   let navigate= useNavigate()
   const { bookmarks } = useContext(Bookmark)
   const savedCourses = bookmarks.filter(b => b.type === "course")
 const savedProjects = bookmarks.filter(b => b.type === "project")
@@ -31,7 +33,9 @@ const savedProjects = bookmarks.filter(b => b.type === "project")
 
   <div className='flex justify-between items-start h-[10%] w-full '>
     <h2 className='text-[22px] font-bold  '>Saved Course</h2>
-    <h2 className='text-[15px] text-[#1214E7]  '>View All</h2> 
+    <h2 onClick={()=>{
+            navigate('/courses')
+        }} className='text-[15px] hover:cursor-pointer  text-[#1214E7]  '>View All</h2> 
   </div>
 
   <div className='  flex justify-start items-center gap-10  h-[85%]  w-full '>
@@ -54,7 +58,11 @@ const savedProjects = bookmarks.filter(b => b.type === "project")
 
   <div className='flex justify-between items-start h-[10%] w-full '>
     <h2 className='text-[22px] font-bold  '>Saved Projects</h2>
-    <h2 className='text-[15px] text-[#1214E7]  '>Browse Hub</h2> 
+    <h2
+    onClick={()=>{
+            navigate('/projects')
+        }}
+    className=' hover:cursor-pointer text-[15px] text-[#1214E7]  '>Browse Hub</h2> 
   </div>
 
   <div className='  flex justify-start items-center gap-8  h-[80%]  w-full overflow-x-auto flex-nowrap '>

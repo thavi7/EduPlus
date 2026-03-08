@@ -15,6 +15,7 @@ import Applayout from "./Components/Layout/Applayout";
 
 import 'locomotive-scroll/dist/locomotive-scroll.css'
 
+
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -40,7 +41,7 @@ const App = () => {
     {
       path:"/ai" , element:<Ai/> ,
     },
-
+    
         
       ]
     },

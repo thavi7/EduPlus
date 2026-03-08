@@ -26,12 +26,12 @@ const ProjectNav = ({skills, setSkills}) => {
 
 
   return (
-    <div className="flex flex-col gap-7 fixed top-0 w-[calc(100%-300px)] bg-[#101022] z-50 p-4">
+    <div className="flex flex-col gap-7 fixed top-0 w-full bg-[#101022] z-50 p-4">
        <div className="t1 flex flex-col gap-2 mt-2">
          <h2 className='text-3xl font-bold'>Project Suggestions</h2>
          <h3 className='text-[17px] text-gray-400'>Discover curated project ideas to build your professional portfolio.</h3>
        </div>
-       <div className="t2  flex items-center justify-center w-[90%] h-15 bg-[#111136] outline-0 px-5 text-[17px] rounded-2xl">  
+       <div className="t2  flex items-center justify-center w-[60%] h-15 bg-[#111136] outline-0 px-5 text-[17px] rounded-2xl">  
            <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray-400 relative left-0"/>
            <input 
            value={Input}

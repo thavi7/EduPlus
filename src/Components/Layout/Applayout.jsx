@@ -18,14 +18,14 @@ const Applayout = () => {
   }, [])
 
   return (
-    <div>
+    <div >
 
       <Sidebar />
 
       <div
         ref={scrollRef}
         data-scroll-container
-        className="ml-[20%]"
+        className="ml-[20%] "
       >
         <div data-scroll-section>
           <Outlet />
