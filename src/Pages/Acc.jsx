@@ -16,7 +16,7 @@ const Acc = () => {
   const savedCourses = bookmarks.filter(b => b.type === "course")
 const savedProjects = bookmarks.filter(b => b.type === "project")
   return (
-    <div className='bg-[#101022] w-full h-auto  text-white p-6'>
+    <div className='bg-[#010104] w-full h-auto  text-white p-6'>
 
       <div className="title flex justify-between items-center ">
         <div className="name font-bold text-4xl p-2">Profile Dashboard</div>
@@ -65,7 +65,7 @@ const savedProjects = bookmarks.filter(b => b.type === "project")
     className=' hover:cursor-pointer text-[15px] text-[#1214E7]  '>Browse Hub</h2> 
   </div>
 
-  <div className='  flex justify-start items-center gap-8  h-[80%]  w-full overflow-x-auto flex-nowrap '>
+  <div className='  flex justify-start items-center  gap-8  h-[80%]  w-full overflow-x-auto flex-nowrap '>
    
     {savedProjects.length === 0 ? (
     <p className="text-gray-400">No saved projects 😿</p>
@@ -80,18 +80,6 @@ const savedProjects = bookmarks.filter(b => b.type === "project")
 
   
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>

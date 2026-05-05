@@ -21,7 +21,7 @@ const CourseList = ({
 
   const isSavedCourse = bookmarks.some((c) => c.title === title);
   return (
-    <div className="bg-[#0e0e32]  transition duration-300 ease hover:scale-103  border-2 gap-2 border-[#0F0F3E] h-110 rounded-2xl flex flex-col justify-center items-center p-2">
+    <div className="bg-[#080819]  transition duration-300 ease hover:scale-103  border-2 gap-2 border-[#0F0F3E] h-110 rounded-2xl flex flex-col justify-center items-center p-2">
       <div className="pic rounded-t-2xl h-[40%] w-full relative">
         <img className="rounded-t-2xl " src={thumbnail} alt="" />
         <div className="time rounded-[5px] p-2 w-[18%] h-[8%] absolute bottom-0 right-2 m-1 bg-black text-[12px] flex justify-center items-center">

@@ -15,7 +15,7 @@ const ProjectList = ({title,description,category,tag,link}) => {
 
 
   return (
-     <div className="box py-2 px-3 bg-[#101325] transition duration-300 ease hover:scale-103 hover:bg-[#1d223bbc] relative rounded-2xl border-2 border-[#0F0F3E]  h-60 w-full flex flex-col justify-between">
+     <div className="box py-2 px-3 bg-[#080819] transition duration-300 ease hover:scale-103 hover:bg-[#1d223bbc] relative rounded-2xl border-2 border-[#0F0F3E]  h-60 w-full flex flex-col justify-between">
     <div 
    onClick={() => toggleBookmark(project)}  
     className='absolute right-2 top-2 hover:cursor-pointer'><FontAwesomeIcon icon={saved ? solidBookmark : regularBookmark} /></div>

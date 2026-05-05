@@ -5,7 +5,7 @@ import { faCartArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectAcc = ({title,tag,link}) => {
   return (
-     <div className='bg-[#0F172A] flex gap-2 h-full w-[30%] rounded-xl '>
+     <div className='bg-[#080819]  flex gap-2 h-full w-[30%] rounded-xl '>
           <div className=' w-[30%] h-full text-center p-4 text-2xl text-[#1214E7] '> 
             <FontAwesomeIcon icon={faCartArrowDown} />
           </div>

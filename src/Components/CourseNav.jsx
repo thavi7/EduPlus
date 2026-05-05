@@ -5,7 +5,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const CourseNav = ({Topic, setTopic,search,setSearch }) => {
   return (
-<div className="flex flex-col gap-2 border-b border-white fixed top-0 w-full bg-[#101022] z-50 p-4">
+<div className="flex flex-col gap-2 border-b rounded-bl-xl rounded-br-xl border-white fixed top-0 w-full bg-[#010104] z-50 p-4">
   <div className="t1 flex items-center gap-20 xl:gap-60">
     <div className='max-w-[60%]'>
       <h2 className="text-3xl font-bold">Explore Free Courses</h2>
@@ -14,7 +14,7 @@ const CourseNav = ({Topic, setTopic,search,setSearch }) => {
       </h3>
     </div>
 
-    <div className="flex items-center gap-3 bg-[#111136] px-4 h-12 rounded-xl w-80">
+    <div className="flex items-center gap-3 bg-[#080819] px-4 h-12 rounded-xl w-80">
   <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray-400 shrink-0" />
   <input
     value={search}

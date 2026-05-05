@@ -8,13 +8,13 @@ import { useNavigate } from 'react-router-dom';
 const Sidebar = () => {
   let navigate=useNavigate()  
   return (
-    <div className="sidebar fixed left-0 top-0 text-white bg-[#101027] w-[20%] h-screen flex border-r-2 border-[#101037] flex-col">
+    <div className="sidebar fixed left-0 top-0 text-white bg-[#010104] w-[20%] h-screen flex border-r-2 border-[#101037] flex-col">
       
       <div className='title h-[15%] w-full flex items-center px-5 gap-3'>
         <div className='bg-[#1313EC] h-10 w-10 rounded-xl flex items-center justify-center'>
           <FontAwesomeIcon icon={faGraduationCap}  />
         </div>
-        <h1 className='text-2xl font-bold'>EduPlus</h1>
+        <h1 className='text-2xl font-bold'>Z-Coding</h1>
       </div>
  
   <Sidebar_Options/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogNav = () => {
   return (
-    <div className="flex flex-col gap-2  fixed top-0 w-auto bg-[#101022] z-50 p-2">
+    <div className="flex flex-col rounded-bl-xl rounded-br-xl gap-2  fixed top-0 w-auto bg-[#010104] z-50 p-2">
       <h1 className='text-5xl text-center font-bold p-3'>
         Best Blogs
       </h1>

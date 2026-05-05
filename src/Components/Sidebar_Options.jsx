@@ -9,12 +9,22 @@ const Sidebar_Options = () => {
 
         <button 
         onClick={()=>{
+            navigate('/')
+        }}
+       className={`h-[8vh] text-[16px] flex justify-start gap-3 px-3 py-3 rounded-xl text-gray-400 items-center w-full hover:cursor-pointer hover:text-white ${location.pathname === "/" ? "bg-[#1313EC] text-white" : "bg-[#111136]text-gray-400"}`}>
+        <img className='h-5 w-5  filter brightness-0 invert' src="https://www.svgrepo.com/show/422048/homepage.svg" alt="" />
+            <h1 className='text-[16px]'>Home Page</h1>
+        </button>
+
+        <button
+         onClick={()=>{
             navigate('/courses')
         }}
-       className={`h-[8vh] text-[16px] flex justify-start gap-3 px-3 py-3 rounded-xl text-gray-400 items-center w-full hover:cursor-pointer hover:text-white ${location.pathname === "/courses" ? "bg-[#1313EC] text-white" : "bg-[#111136]text-gray-400"}`}>
-        <img className='h-5 w-5  filter brightness-0 invert' src="https://cdn-icons-png.flaticon.com/128/1055/1055007.png" alt="" />
+         className={`h-[8vh] text-[16px] flex justify-start gap-3 px-3 py-3 rounded-xl text-gray-400 items-center w-full hover:cursor-pointer hover:text-white ${location.pathname === "/courses" ? "bg-[#1313EC] text-white" : "bg-[#111136]text-gray-400"}`}>
+        <img className='h-5 w-5  filter brightness-0 invert' src="https://cdn-icons-png.flaticon.com/128/566/566359.png" alt="" />
             <h1 className='text-[16px]'>Free Courses</h1>
         </button>
+        
          <button
          onClick={()=>{
             navigate('/projects')

@@ -26,13 +26,13 @@ const BlogList = () => {
   }
 
   return (
-   <div className="bg-[#101022] border-2 border-purple-500 shadow-xl shadow-purple-700 rounded-2xl min-h-screen p-10 mt-40">
+   <div className="bg-[#010104] border-2 border-purple-500 shadow-xl shadow-purple-700 rounded-2xl min-h-screen p-10 mt-40">
 
       <div className="grid grid-cols-2 gap-8">
         {blogs.map((blog) => (
           <div
             key={blog.id}
-            className="bg-[#1c1c3a] rounded-xl overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+            className="bg-[#080819] rounded-xl overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
           >
             {blog.cover_image && (
               <img

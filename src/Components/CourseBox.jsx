@@ -3,7 +3,7 @@ import React from 'react'
 const CourseBox = ({title,channel,thumbnail,}) => {
   const progress = Math.floor(Math.random() * 91) + 10;
   return (
-   <div className=' box h-full w-[35%] rounded-2xl bg-[#0F172A]  flex flex-col '>
+   <div className=' box h-full w-[35%] rounded-2xl bg-[#080819]  flex flex-col '>
       <div className="t  rounded-t-2xl h-[55%] relative ">
     <img  src={thumbnail} className='h-full w-full  rounded-t-2xl overflow-hidden object-cover '  />
         <div className=" rounded-[3px] w-[18%] h-[20] text-[10px] px-1 absolute right-2 bottom-2  bg-[#1214E7] text-shadow-2xs flex justify-center items-center"><p>CONTINUE </p></div> 
